@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../css/all.min.css">
+  <script src="js/tailwind.config.js"></script>
+  </head>
+  <body class="container p-5">
+    <div class="row position-relative">
+        <img class="logo col-2 mt-[-90px]" src="images/logo.png" alt="">
+        <form action="" class="col-8">
+            <input placeholder="Search" type="text" class="form-control">
+        </form>
+        <div class="col-2 object-fit-contain">
+            <img class="profile " src="images/profile.jpg" alt="">
+        </div>
+
+    </div>
+    <div class="d-flex">
+        <nav class="text-center col-2 text-2xl font-medium flex flex-column">
+            <ul class="">
+                <a href=""><li class="pb-3 block">Home</li></a>
+                <a href=""><li class="pb-3 block">Questions</li></a>
+                <a href=""><li class="pb-3 block">Tags</li></a>
+                <a href=""><li class="pb-3 block">Users</li></a>
+            </ul>
+            <h1 class="text-5xl font-bold pt-12 italic">FAQ?</h1> 
+        </nav>  
+        <div class="col-8">
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Link with href
+                </a>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Button with data-bs-target
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+        </div>
+    </div>
+  </body>
+</html>

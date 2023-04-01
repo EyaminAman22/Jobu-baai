@@ -1,0 +1,9 @@
+.profile{
+   width: 20%;
+   background-color: red;
+}
+.texty{
+    resize: none;
+        height: 100px;
+        width: 450px;
+}
